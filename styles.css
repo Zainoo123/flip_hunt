@@ -109,29 +109,34 @@ body {
   transform: rotate(270deg);
   top: 0;
   left: 0;
+  color: purple;
 }
 
 .cob-web-top-right {
   top: 0;
   right: 0;
+  color: purple;
 }
 
 .cob-web-bottom-left {
   transform: rotate(180deg);
   bottom: 0;
   left: 0;
+  color: purple;
 }
 
 .cob-web-bottom-right {
   transform: rotate(90deg);
   bottom: 0;
   right: 0;
+  color: purple;
 }
 
 .spider {
   align-self: flex-start;
   transition: transform 100ms ease-in-out;
   transform: translateY(-10px);
+  color: purple;
 }
 
 .card-back:hover .spider {

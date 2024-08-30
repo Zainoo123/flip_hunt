@@ -90,7 +90,7 @@ animation: dance 1s linear infinite 500ms;
 .card-back {
 background: url('Assets/CardBack.png') no-repeat center center;
 background-size: cover; /* Ensures the image covers the card */
-border-color: purple;
+border-color: black;
 transform: rotateY(0); 
 }
 

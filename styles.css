@@ -101,6 +101,7 @@ width: 47px;
 height: 47px;
 background: url('Assets/Cobweb.png') no-repeat center center;
 background-size: contain; /* Ensures the image scales properly */
+filter: brightness(0) invert(1); /* Change color to black */
 }
 
 .card-face:hover .cob-web {
@@ -137,6 +138,7 @@ transition: transform 100ms ease-in-out;
 transform: translateY(-10px);
 background: url('Assets/Spider.png') no-repeat center center;
 background-size: contain; /* Ensures the image scales properly */
+filter: brightness(0) invert(1); /* Change color to black */
 }
 
 .card-back:hover .spider {
@@ -217,6 +219,7 @@ to {
   align-items: center;
 }
 }
+
 
 
 

@@ -22,11 +22,11 @@ html {
 
 body {
   margin: 0;
-  background: radial-gradient(#9D5900, #3D2200);
+  background: radial-gradient(purple, black);
 }
 
 .page-title {
-  color: #FF6D00;
+  color: purple;
   font-family: Creepy, serif;
   font-weight: normal;
   text-align: center;
@@ -40,7 +40,7 @@ body {
 }
 
 .game-info {
-  color: #FFBB89;
+  color: plum;
   font-size: 4em;
 }
 
@@ -89,7 +89,7 @@ body {
 
 .card-back {
   background-color: black;
-  border-color: #FF6D00;
+  border-color: purple;
   transform: rotateY(0); 
 }
 
@@ -149,7 +149,7 @@ body {
 }
 
 .card-front {
-  background-color: #FFBB89;
+  background-color: plum;
   border-color: #333;
   transform: rotateY(180deg);
 }
@@ -165,7 +165,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #FF6D00;
+  color: purple;
   font-family: Creepy, serif;
   transition: background-color 500ms, font-size 500ms;
 }

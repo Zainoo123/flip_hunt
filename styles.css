@@ -88,19 +88,19 @@ animation: dance 1s linear infinite 500ms;
 }
 
 .card-back {
-background-color: black; /* Keep the back card black */
-border-color: purple; /* Border color remains purple */
+background: url('Assets/CardBack.png') no-repeat center center;
+background-size: cover; /* Ensures the image covers the card */
+border-color: purple;
 transform: rotateY(0); 
 }
 
-/* Ensure the cobweb and spider images are purple */
 .cob-web {
 position: absolute;
 transition: width 100ms ease-in-out, height 100ms ease-in-out;
 width: 47px;
 height: 47px;
-background: url('Assets/Images/PurpleCobWeb.png') no-repeat center center;
-background-size: contain; /* Ensure the image scales properly */
+background: url('Assets/Cobweb.png') no-repeat center center;
+background-size: contain; /* Ensures the image scales properly */
 }
 
 .card-face:hover .cob-web {
@@ -135,8 +135,8 @@ right: 0;
 align-self: flex-start;
 transition: transform 100ms ease-in-out;
 transform: translateY(-10px);
-background: url('Assets/Images/PurpleSpider.png') no-repeat center center;
-background-size: contain; /* Ensure the image scales properly */
+background: url('Assets/Spider.png') no-repeat center center;
+background-size: contain; /* Ensures the image scales properly */
 }
 
 .card-back:hover .spider {
@@ -217,5 +217,6 @@ to {
   align-items: center;
 }
 }
+
 
 

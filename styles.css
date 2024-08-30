@@ -93,13 +93,14 @@ border-color: purple; /* Border color remains purple */
 transform: rotateY(0); 
 }
 
+/* Ensure the cobweb and spider images are purple */
 .cob-web {
 position: absolute;
 transition: width 100ms ease-in-out, height 100ms ease-in-out;
 width: 47px;
 height: 47px;
-background-color: transparent; /* Ensure background is transparent */
-border-color: purple; /* Cob-web color set to purple */
+background: url('Assets/Images/PurpleCobWeb.png') no-repeat center center;
+background-size: contain; /* Ensure the image scales properly */
 }
 
 .card-face:hover .cob-web {
@@ -134,7 +135,8 @@ right: 0;
 align-self: flex-start;
 transition: transform 100ms ease-in-out;
 transform: translateY(-10px);
-color: purple; /* Spider color set to purple */
+background: url('Assets/Images/PurpleSpider.png') no-repeat center center;
+background-size: contain; /* Ensure the image scales properly */
 }
 
 .card-back:hover .spider {
@@ -215,4 +217,5 @@ to {
   align-items: center;
 }
 }
+
 

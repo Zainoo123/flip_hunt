@@ -87,10 +87,9 @@ transform: rotateY(0);
 animation: dance 1s linear infinite 500ms;
 }
 
-/* Updated back of the card to be purple */
 .card-back {
-background-color: purple; /* Changed from black to purple */
-border-color: purple;
+background-color: black; /* Keep the back card black */
+border-color: purple; /* Border color remains purple */
 transform: rotateY(0); 
 }
 
@@ -99,6 +98,8 @@ position: absolute;
 transition: width 100ms ease-in-out, height 100ms ease-in-out;
 width: 47px;
 height: 47px;
+background-color: transparent; /* Ensure background is transparent */
+border-color: purple; /* Cob-web color set to purple */
 }
 
 .card-face:hover .cob-web {
@@ -133,6 +134,7 @@ right: 0;
 align-self: flex-start;
 transition: transform 100ms ease-in-out;
 transform: translateY(-10px);
+color: purple; /* Spider color set to purple */
 }
 
 .card-back:hover .spider {
@@ -213,3 +215,4 @@ to {
   align-items: center;
 }
 }
+

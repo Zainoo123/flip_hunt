@@ -34,9 +34,6 @@ Ensure you have the following installed to run the project locally:
 
 3. Open the `index.html` file in your web browser to start playing the game.
 
-### Live Demo
-Check out the live version of the game on [Vercel](https://flipandmatch1-zainebs-projects-7759c8fa.vercel.app/).
-
 ## How to Play
 1. Click on a card to flip it over.
 2. Try to find the matching pair for each card.
